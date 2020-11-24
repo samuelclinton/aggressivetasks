@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+/* Fazendo com que o index tenha sempre uma altura de 100% da tela. */
+
+html{
+    min-height: -webkit-fill-available;
+}
+
+body {
+    background: #222222;
+    color: #ffffff;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    height: 100vh;
+}
+
+.c-font {
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.flex-container {
+    height: 100vh;
+}
+
+.jumper {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+.custom-form, .custom-form:focus {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.tarefa {
+    max-width: 800px;
+}
+
+.riscado {
+    text-decoration: line-through !important;
+}
